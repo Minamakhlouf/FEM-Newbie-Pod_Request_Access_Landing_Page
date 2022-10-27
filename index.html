@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="image">
+            <picture>
+                <source srcset="images/desktop/image-host.jpg" media="(min-width: 1110px">
+                <img src="images/mobile/image-host.jpg" alt="Man in front of microphone" aria-hidden="true">
+            </picture>
+
+        </div>
+        <div class="logo">
+            <img src="images/desktop/logo.svg" alt="">
+        </div>
+        <div class="text-content">
+            <h1 class="heading">Publish your podcasts <span>everywhere</span></h1>
+            <p class="paragraph">Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+            <div class="icon-container">
+                <div class="icon">
+                                <img src="images/desktop/spotify.svg" alt="">
+                </div>
+                <div class="icon">
+                    <img src="images/desktop/apple-podcast.svg" alt="">
+    
+                </div>
+                <div class="icon">
+                <img src="images/desktop/google-podcasts.svg" alt="">
+    
+                </div>
+                <div class="icon">
+                    <img src="images/desktop/pocket-casts.svg" alt="">
+                </div>
+            </div>
+            <form action="" method="get" novalidate>
+                <div class="form-flex">
+                    <input  id="email" name="email" type="email" placeholder="Email address">
+                    <button type="submit">Request Access</button>
+                </div>
+                <div class="error-message">
+                </div>
+            </form>
+        </div>
+        <div class="bottom-image">
+            <img src="images/desktop/bg-pattern-dots.svg" alt="">
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
